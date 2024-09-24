@@ -9,12 +9,13 @@
 
 int main( int argc, char* argv[]){
 
-	if(argc!= 2){
+	if(argc!= 3){
 		printf("Mauvais nombre de parametre");
 		return Mauvais_Parametre ;
 	}
 
 	unsigned int k = atoi(argv[1]);
+	unsigned int x = atoi(argv[2]);
 
 //Création du générateur aléatoire 
 	gmp_randstate_t generateur ;
@@ -22,8 +23,10 @@ int main( int argc, char* argv[]){
 
 //Spécification d'une graine au générateur
 	mpz_t seed ;
-	mpz_init_set_ui(seed, time(NULL));
+	mpz_init_set_ui(seed, time(x));
 	gmp_randseed(generateur, seed);
+        gmp_printf("la graine utlisé : %Zd \n",seed);
+
 
 
 
