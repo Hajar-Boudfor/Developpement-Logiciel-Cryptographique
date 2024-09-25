@@ -1,3 +1,5 @@
+//Ce programme permet de génerer de manière unqiue des nombre aléatoires jusqu'a se qu'il trouve un nombre divisible par 20  
+
 #include "gmp.h"
 #include <stdlib.h>
 #include <stdio.h>
