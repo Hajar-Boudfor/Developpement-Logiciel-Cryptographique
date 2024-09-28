@@ -1,4 +1,4 @@
-# Tâches de Développement Logiciel Cryptographique
+# Développement Logiciel Cryptographique
 
 Ce dépôt contient les travaux pratiques (TP) du cours "Développement de logiciels cryptographiques". Les exercices abordent des concepts fondamentaux en cryptographie tels que le chiffrement RSA, les tests de primalité, la génération de nombres aléatoires et la cryptographie sur courbes elliptiques.
 
