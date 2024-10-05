@@ -1,4 +1,4 @@
-// Ce code permet de déchiffrer un message chiffré en utilisant le chiffrement RSA avec une clé de 1024 bits.
+// Ce code permet de déchiffrer un message chiffré en utilisant  RSA avec une clé de 1024 bits.
 
 #include <gmp.h>
 #include <stdio.h>
